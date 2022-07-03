@@ -1,0 +1,99 @@
+.head
+{
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    top: 80px;
+    margin-left: 170px;
+    text-decoration: underline;
+    font-size:x-large;
+    
+}
+.xyz{
+    background-color: #e9ecef;
+}
+.box{
+    width: 500px;
+    height: 720px;
+    border:black 0.5px;
+    position: absolute;
+    left:550px;
+    background-color: white;
+    float:left;
+    -webkit-box-shadow: 10px 10px 5px #989898;
+        box-shadow: 0 0 10px #989898;
+}
+
+.profile-img{
+    float: left;
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    
+
+}
+
+.abc
+{
+    margin-left:10px;
+    text-decoration: underline;
+}
+.abc-body{
+    margin-left: 10px;
+    margin-top:0px;
+ }
+.skill{
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+    border: black;
+    
+
+} 
+.skills{
+   
+    margin-left: 10px;
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+   
+    
+
+} 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .java{
+    float: left;
+    
+    margin-left: 30px;
+
+    width: 80px;
+    height:60px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .fa {
+    display: inline;
+    padding: 20px;
+    font-size: 80px;
+    width: 70px;
+    text-align: justify;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .loc{
+    margin-left:10px;
+    text-decoration: underline; 
+  }
