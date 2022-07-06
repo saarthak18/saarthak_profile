@@ -22,6 +22,8 @@
     float:left;
     -webkit-box-shadow: 10px 10px 5px #989898;
         box-shadow: 0 0 10px #989898;
+
+        overflow: scroll;
 }
 
 .profile-img{
@@ -84,6 +86,11 @@
     clear: both;
     display: table;
   }
+  .box::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
   .fa {
     display: inline;
     padding: 20px;
@@ -97,3 +104,21 @@
     margin-left:10px;
     text-decoration: underline; 
   }
+
+  div > iframe{
+    margin-left:5%;
+    margin-right: 5%;
+    
+  }
+  .div {display: inline-block; width: 50%; max-width: 600px;}
+  @media only screen and (max-width: 500px) { div {width: 100%;}}
+
+   .lmn {
+    margin-top: 50%;
+    width: 100%;
+    
+  float:right;
+    height: 200px;
+    background:#D8D8D8;
+}
+ 
